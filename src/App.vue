@@ -1,3 +1,5 @@
+<!-- To convert existing Vue project to TS, cd into project and run command "vue add typescript on cli" select N Y Y N Y -->
+
 <template>
 <div>
   <img alt="Vue logo" src="./assets/logo.png" />
