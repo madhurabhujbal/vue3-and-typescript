@@ -42,3 +42,21 @@ let person: {
 /* Union operator (OR operator in JS) is used for multiple assignment */
 type buttonType = 'primary' | 'secondary' | 'success' | 'danger';
 let buttonStyles: buttonType = 'secondary'
+
+/* Defining an interface */
+// type comicUniverse = 'Marvel' | 'DC'
+// interface Hero = {
+//     name: string;
+//     age: number;
+//     activeAvenger: boolean;
+//     powers: string[];
+//     universe: comicUniverse;
+// }
+
+// let person1: Hero = {
+//     name: 'Peter Parker',
+//     age: 20,
+//     activeAvenger: true,
+//     powers: ['wall-crawl', 'spider-sense'],
+//     universe: 'Marvel'
+// }
