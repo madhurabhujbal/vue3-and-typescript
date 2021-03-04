@@ -32,3 +32,13 @@ let person: {
     activeAvenger: true,
     powers: ['wall-crawl', 'spider-sense']
 }
+
+/* Defining custom types */
+/* Below code wont work as we cannot assign buttonType to any other type except for primary type.
+    type buttonType = 'primary'
+    let buttonStyles: buttonType = 'secondary' 
+*/
+
+/* Union operator (OR operator in JS) is used for multiple assignment */
+type buttonType = 'primary' | 'secondary' | 'success' | 'danger';
+let buttonStyles: buttonType = 'secondary'
