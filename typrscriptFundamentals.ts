@@ -72,3 +72,8 @@ Generics are followed by function name in <> */
     const numberList = createList<number>(123)
     const stringList = createList<string>("Hello!")
 */ 
+
+/* Points to remember when applying Custom types with Methods:
+1. Whether our parameters need Custom Types
+2. Whether or not to apply custom types to return value of method  
+*/
