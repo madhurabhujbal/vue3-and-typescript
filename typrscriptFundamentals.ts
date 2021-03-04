@@ -60,3 +60,15 @@ let buttonStyles: buttonType = 'secondary'
 //     powers: ['wall-crawl', 'spider-sense'],
 //     universe: 'Marvel'
 // }
+
+/* Function with generics. 
+Generics allow you to define a dynamic type to use in a function
+Generics are followed by function name in <> */
+/* function createList <T> (item: T): T[] {
+    const newList: T[] = []
+    newList.push(item)
+    return newList
+} 
+    const numberList = createList<number>(123)
+    const stringList = createList<string>("Hello!")
+*/ 
