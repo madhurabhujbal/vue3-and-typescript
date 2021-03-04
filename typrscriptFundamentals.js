@@ -15,3 +15,8 @@
 
 /* Defining array: determine what type should exist in the array */
 /* eg: let shoppingList: string[] = ['apples', 'bananas', 'cherries' ] */
+
+/* Defining a function: Parameters and what you return from function are main points to remember */
+/* eg: let generateFullName = (firstName: string, lastName: string): string => {
+    return firstName + '' + lastName;
+} */
