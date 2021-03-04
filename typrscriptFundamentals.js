@@ -5,3 +5,10 @@
           Array cannot contain any less or any more elements than defined
 3. Enum: Allows you to define friendly names to a set of values. e.g: enum arrowKeys = {Up, Down, Right, Left}
  */
+
+/*Defining type to a variable*/
+/* 
+    let stagename: string = "A Beautiful Vue"
+    let roomsize: number = 100
+    let isComplete: boolean = true
+*/
