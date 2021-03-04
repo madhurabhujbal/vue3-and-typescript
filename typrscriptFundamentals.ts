@@ -6,12 +6,11 @@
 3. Enum: Allows you to define friendly names to a set of values. e.g: enum arrowKeys = {Up, Down, Right, Left}
  */
 
+ export{}
 /*Defining type to a variable*/
-/* 
     let stagename: string = "A Beautiful Vue"
     let roomsize: number = 100
     let isComplete: boolean = true
-*/
 
 /* Defining array: determine what type should exist in the array */
 /* eg: let shoppingList: string[] = ['apples', 'bananas', 'cherries' ] */
