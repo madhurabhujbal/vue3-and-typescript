@@ -13,9 +13,22 @@
     let isComplete: boolean = true
 
 /* Defining array: determine what type should exist in the array */
-/* eg: let shoppingList: string[] = ['apples', 'bananas', 'cherries' ] */
+let shoppingList: string[] = ['apples', 'bananas', 'cherries' ]
 
 /* Defining a function: Parameters and what you return from function are main points to remember */
-/* eg: let generateFullName = (firstName: string, lastName: string): string => {
+let generateFullName = (firstName: string, lastName: string): string => {
     return firstName + '' + lastName;
-} */
+} 
+
+/* Defining an object */
+let person: {
+    name: string;
+    age: number;
+    activeAvenger: boolean;
+    powers: string[];
+} = {
+    name: 'Peter Parker',
+    age: 20,
+    activeAvenger: true,
+    powers: ['wall-crawl', 'spider-sense']
+}
