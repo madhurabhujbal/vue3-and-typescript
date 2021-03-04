@@ -12,3 +12,6 @@
     let roomsize: number = 100
     let isComplete: boolean = true
 */
+
+/* Defining array: determine what type should exist in the array */
+/* eg: let shoppingList: string[] = ['apples', 'bananas', 'cherries' ] */
